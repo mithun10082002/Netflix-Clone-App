@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.heroImg{
+    height: 90vh;
+}
+
+.heroImg img {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.heroImg h2 {
+  position: absolute;
+  font-size: 50px;
+  letter-spacing: 5px;
+  top: 10px;
+  left: 150px;
+  color: red;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.heroRight {
+  position: absolute;
+  top: 30px;
+  right: 130px;
+}
+
+.heroRight select {
+  position: absolute;
+  padding: 5px 20px;
+  font-size: 17px;
+  color: white;
+  background: none;
+  right: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.heroRight button {
+  position: absolute;
+  font-size: 15px;
+  padding: 5px;
+  width: 75px;
+  height: 33px;
+  right: 50px;
+  border: 2px solid red;
+  border-radius: 7px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.heroRight button:hover {
+  background-color: rgb(193, 1, 1);
+}
+
+.heroImg h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  top: 250px;
+  text-align: center;
+  font-size: 50px;
+  padding: 0 200px;
+}
+
+.p1 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 330px;
+  font-size: 27px;
+  padding-left: 580px;
+  margin-top: 50px;
+}
+
+.p2 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 380px;
+  font-size: 25px;
+  padding-left: 400px;
+  margin-top: 50px;
+}
+
+.form{
+    position: absolute;
+    top: 480px;
+    left: 500px;
+}
+
+input[type=email]{
+    height: 50px;
+    width: 300px;
+    background: none;
+    border-color: #b4b3b3;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.form form button{
+    position: absolute;
+    top: 1px;
+    height: 55px;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    margin-left: 10px;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.div1, .div2, .div3, .div4{
+  display: flex;
+}
+
+.div1Para{
+  flex: 50%;
+  padding-left: 150px;
+  padding-top: 230px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.div1Para h1{
+  font-size: 50px;
+  word-spacing: 5px;
+}
+
+.div1Para p{
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.div1Video{
+  flex: 50%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.div2Img, .div4Img{
+  flex: 20%;
+  padding-bottom: 50px;
+}
+
+.div2Para, .div4Para{
+  flex: 80%;
+  padding-top: 200px;
+}
+
+.div2Para h1, .div4Para h1{
+  font-size: 50px;
+}
+
+.div2Para p, .div4Para p{
+  font-size: 25px;
+}
+
+.div3Para{
+  flex: 50%;
+  padding: 200px 0px 200px 150px;
+}
+
+.div3Para h1{
+  font-size: 50px;
+}
+
+.div3Para p{
+  font-size: 25px;
+}
+
+.div3Video{
+  flex: 50%;
+}
+
+.div3Video video{
+  position: absolute;
+  height: 290px;
+  width: 390px;
+  top: 1815px;
+  left: 955px;
+}
+
+.div3Video img{
+  position: absolute;
+}
+
+.div5{
+  margin-bottom: 50px;
+}
+
+.div5 h1{
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+}
+
+.div5Block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.div5Block p{
+  height: 50px;
+  width: 70%;
+  background-color: rgb(47, 47, 47);
+  margin: 10px;
+  padding: 25px 0px 15px 0px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.div5Block p:hover{
+  background-color: rgb(41, 41, 41);
+}
+
+.div5 p{
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.div5 form{
+  display: flex;
+  justify-content: center;
+}
+
+.div5 button{
+  font-size: 25px;
+  padding: 5px;
+  margin-left: 10px;
+  border: 2px solid red;
+  border-radius: 7px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.div5 button:hover{
+  background-color: rgb(193, 1, 1);
+}
+
+.div6{
+  width: 100%;
+  height: 30vh;
+  display: inline-flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.div6 p{
+  margin: 10px 0px 10px 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.block{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(47, 47, 47);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
